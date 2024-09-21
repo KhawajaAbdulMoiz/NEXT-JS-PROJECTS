@@ -1,0 +1,79 @@
+body{
+  background-color: #28ddde;
+background-image: linear-gradient(90deg, #28ddde 0%, #c030f7 100%);
+margin-top:14% ;
+background-color: #28ddde;
+background-image: linear-gradient(90deg, #28ddde 0%, #c030f7 100%);
+margin-top: -6%;
+}
+
+label{
+  font-size: 21px;
+}
+.navbar{
+  position: fixed;
+  justify-content: center; 
+  align-items: center; 
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+  padding: 10px 20px; 
+}
+.navbar img {
+  margin-left: 42%;
+  height: 55px;
+  width: 55px;
+  margin-right: -37%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 22%;
+  font-family: cursive;
+}
+
+label, input, button {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+button {         
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  button:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+
+
+button:hover {
+  background-color: #005bb5;
+}
+h1,h2{
+  text-align: center;
+  font-family: cursive;
+}

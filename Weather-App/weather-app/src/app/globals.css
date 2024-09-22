@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  gap: 43px;
+  margin-left: 45%;
+  margin-top: 10px;
+}
+.nav{
+  
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #021B79, #6e7277);
+    background: linear-gradient(to bottom, #abb4d3, #1d8ddd);
+    height: 70px;
+
+
+
+
+}
+img {
+  width: 50px;
+  height: auto;
+}

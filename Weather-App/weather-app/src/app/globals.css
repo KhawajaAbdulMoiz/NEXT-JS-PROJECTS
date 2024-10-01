@@ -2,22 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  overflow: hidden;
-}
 
+*{
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  
+}
 .container {
   display: flex;
   gap: 43px;
   margin-left: 45%;
   margin-top: 10px;
+  
 }
 
 .nav {
-  background: #000000;
+  
   background: -webkit-linear-gradient(to bottom, #021B79, #6e7277);
   background: linear-gradient(to bottom, #abb4d3, #1d8ddd);
   height: 70px;
+}
+.main_container {
+  background-color: #f0f8ff; 
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.error-message{
+  text-align: center;
+  font-family: sans-serif;
+  color: #5d5656;
+}
+
+.main_container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.main_container h2 {
+  font-size: 1.5rem;
+  color: #ff6347;
+  margin-bottom: 15px;
+}
+
+.main_container h3 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.main_container img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 40%;
 }
 
 
@@ -73,6 +117,13 @@ h1, h2, h3 {
 }
 .radio_button{
   margin: 13px;
+}
+.ctn{
+  display: flex;
+}
+.title{
+  margin-block-start: auto;
+  margin-top: 42px;
 }
 
            
